@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personajes",
+  "info": {
+    "name": "personajes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "personaje": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
